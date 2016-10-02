@@ -17,7 +17,7 @@ html {
 }
 
 #heading{
-	background-image: linear-gradient(rgba(16,109,179,0.5),rgba(16,109,179,0.5)),url(images/ocean.jpeg);
+	background-image:url(images/ocean.jpeg);
 	background-size: cover;
 	height: 500px;
 
@@ -26,16 +26,14 @@ html {
 	color:#fff;
 	font-size: 80px;
 	text-align: center;
-	padding-top: 220px;
-	margin-bottom: -155px;
+	padding-top: 230px;
 	text-transform: uppercase;
 
 }
-.subtitle  {
-	font-size: 10px;
+h1 {
+	font-size: 1em;
 	color:rgb(8,52,82);
 	text-align: center;
-	margin-top: 150px;
 	
 }
 
@@ -60,55 +58,23 @@ h4 {
 	text-transform: uppercase;
 }
 
-
-.authinfo {
-	list-style:none;
-	margin:0;
-	padding: 0px;
-	width: 800px;
-}
-
-.authinfo > li {
-	display: inline;
-	margin-left:10px;
-
-	
-}
-.authinfo li:first-child {
-	margin-left: 125px;
-
-}
-
-.authimg {
+#authimg {
 	
 	border-radius: 100px;
     background-position: left top;
     background-repeat: repeat;
-    background-image:linear-gradient(rgba(16,109,179,0.5),rgba(16,109,179,0.5)),url(images/sheyanne.jpg);
+    background-image:url(images/sheyanne.jpg);
     background-size: cover;
+ 	margin-left: 0px;
  	margin-right: 0px;
-    width: 25px;
-    height: 25px; 
- }
-
-
-.name {
-	margin-left: 10px;
-	font-size: 9px;
-	color: rgb(25,112,180); ;
-}
-
-.date {
-	font-size: 9px;
-	margin-left: 5px;
-	color:rgb(162,178,190);
-
+    width: 50px;
+    height: 50px; 
 }
 
 
-
-h2 {
-	color: rgb(15,108,178);
+h5 {
+	margin-left: 75px;
+	font-size: 9px;
 }
 
 ul {
@@ -154,7 +120,7 @@ ul {
 	border-radius: 100px;
     background-position: left top;
     background-repeat: repeat;
-    background-image: linear-gradient(rgba(16,109,179,0.5),rgba(16,109,179,0.5)),url(images/sheyanne.jpg);
+    background-image:url(images/sheyanne.jpg);
     background-size: cover;
  	margin-left: 90px;
     width: 150px;
@@ -186,15 +152,8 @@ h3 {
 #paddleboarder{
 	height:400px;
 	width: 400px;
-	background-image:linear-gradient(rgba(16,109,179,0.7),rgba(16,109,179,0.7)), url(images/paddle_boarder.jpeg);
+	background-image: url(images/paddle_boarder.jpeg);
 	background-size: cover;
-	
-}
-
-.sidebar {
-	color: rgb(15,108,178);
-	margin-left: 0px;
-	font-size: 25px;
 }
 
 
@@ -211,6 +170,9 @@ h3 {
 	height:330px;
 	display:flex;
 	flex-direction: row;
+
+
+
 }
 
 .image {
@@ -220,33 +182,28 @@ h3 {
 	padding-top: 280px;
 
 }
-.image:hover > img {
-	transition:0.2s;
-	opacity: 0;
-}
 
 #imagelinks div:first-child {
-	background-image: linear-gradient(rgba(16,109,179,0.7),rgba(16,109,179,0.7)),
-	url(images/surfer_girl.jpeg);
+	background-image: url(images/surfer_girl.jpeg);
 	background-size:cover;
 	color: rgb(6,50,80);
 
 }
 
 #imagelinks div:nth-child(2) {
-	background-image: linear-gradient(rgba(16,109,179,0.7),rgba(16,109,179,0.7)),url(images/beer_flight.jpeg);
+	background-image: url(images/beer_flight.jpeg);
 	background-size: cover;
 	color:#fff;
 }	
 
 .image:nth-child(3) {
-	background-image: linear-gradient(rgba(16,109,179,0.7),rgba(16,109,179,0.7)),url(images/Alan.jpeg);
+	background-image: url(images/Alan.jpeg);
 	background-size: cover;
 	color: rgb(6,50,80);
 }
 
 .image:nth-child(4) {
-	background-image: linear-gradient(rgba(16,109,179,0.7),rgba(16,109,179,0.7)),url(images/booze.jpeg);
+	background-image: url(images/booze.jpeg);
 	background-size: cover;
 	color: rgb(6,50,80);
 }
