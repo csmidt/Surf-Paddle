@@ -101,6 +101,12 @@ ul {
 	
 }
 
+#paddleboarder{
+	height:400px;
+	width: 400px;
+	background-image: url(images/paddle_boarder.jpeg);
+	background-size: cover;
+}
 
 
 #bottomtitle {
